@@ -1,4 +1,15 @@
-def main(a, x, y)
+def main()
+  puts "Escolha a operação:
+  1 = soma
+  2 = subtrai
+  3 = multiplica
+  4 =  divide
+  5 = exponencia"
+  a = gets.to_i
+  puts "Escolha o número de linhas"
+  x = gets.to_i
+  puts "Escolha o valor base"
+  y = gets.to_i
   i = 0
   if a == 1
     while i<x do
@@ -33,22 +44,4 @@ def main(a, x, y)
   # tenho que por um else se A for maior que 5
 end
 
-puts "Escolha os valores de A, X e Y:
-Se A = 1, soma
-Se A = 2, subtrai
-Se A = 3, multiplica
-Se A = 4, divide
-Se A = 5, exponencia
-
-X é o número de linhas
-Y o valor base
-
-Bora?"
-
-a = gets.to_i
-
-x = gets.to_i
-
-y = gets.to_i
-
-main(a, x, y)
+main()

@@ -1,4 +1,5 @@
-def main(n)
+def main()
+  n = gets.to_i
   y = 1
   z = 1
   x = 0
@@ -16,5 +17,4 @@ def main(n)
   end
 end
 
-a = gets.to_i
-main(a)
+main()
