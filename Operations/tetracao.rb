@@ -11,19 +11,19 @@ def tetracao()
   (y - 1).times do
     result = base**result
   end
-  if result > 10*100
+  
+  if result > 10 * 100
     puts "Resultado grande demais."
   else
     puts result
-    puts "De novo?
-    1 - Sim
-    2 - Não"
+    puts "De novo?"
+    puts "1 - Sim"
+    puts "2 - Não"
     again = gets.to_i
     if again == 1
-      tetracao()
-    end
+      tetracao()  # Chama a função novamente
     else
-      main()
+      require_relative "C:/Codigo/Ruby/menu.rb"  # Retorna ao menu principal
     end
   end
 end

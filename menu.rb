@@ -1,24 +1,20 @@
-require_relative "Operations/tabuadas.rb"
-require_relative "Operations/fibonacci.rb"
-require_relative "Operations/tetracao.rb"
-
 puts "Bem-vindo!"
 
-def main()
-  puts "Escolha a operação
-  1 - Tabuadas
-  2 - Fibonacci
-  3 - Tetração"
-  op = gets.to_i
-
+def main(op)
   case op
   when 1
-    tabuadas()
+    require_relative "Operations/tabuadas.rb"
   when 2
-    fibonacci()
+    require_relative "Operations/fibonacci.rb"
   when 3
-    tetracao()
+    require_relative "Operations/tetracao.rb"
   end
 end
 
-main()
+puts "Escolha a operação
+1 - Tabuadas
+2 - Fibonacci
+3 - Tetração"
+x = gets.to_i
+
+main(x)

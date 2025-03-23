@@ -1,2 +1,2 @@
-# Gerador-Matemático
-Só uns simples geradores de sequências e operações matemáticas
+# Hiper-Calculadora
+A ideia é concentrar diversas sequências e operações matemáticas diferenciadas em um lugar só.

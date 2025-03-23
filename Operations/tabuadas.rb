@@ -42,6 +42,15 @@ def tabuadas()
     end
   end
   # tenho que por um else se A for maior que 5
+  puts "De novo?"
+  puts "1 - Sim"
+  puts "2 - Não"
+  again = gets.to_i
+  if again == 1
+    tabuadas()  # Chama a função novamente
+  else
+    require_relative "C:/Codigo/Ruby/menu.rb"  # Retorna ao menu principal
+  end
 end
 
 tabuadas()
