@@ -1,4 +1,4 @@
-def main()
+def fibonacci()
   n = gets.to_i
   y = 1
   z = 1
@@ -17,4 +17,4 @@ def main()
   end
 end
 
-main()
+fibonacci()

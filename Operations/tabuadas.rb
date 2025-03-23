@@ -1,4 +1,4 @@
-def main()
+def tabuadas()
   puts "Escolha a operação:
   1 = soma
   2 = subtrai
@@ -44,4 +44,4 @@ def main()
   # tenho que por um else se A for maior que 5
 end
 
-main()
+tabuadas()
