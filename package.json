@@ -1,0 +1,20 @@
+{
+  "name": "hipercalculadora",
+  "version": "1.0.0",
+  "description": "Some unusual math operations in just one place",
+  "keywords": [
+    "math",
+    "ruby"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "Gerador-Matematico"
+  },
+  "license": "MIT",
+  "author": "Bernardo Botto",
+  "type": "commonjs",
+  "main": "menu.rb",
+  "scripts": {
+    "test": "ruby menu.rb"
+  }
+}

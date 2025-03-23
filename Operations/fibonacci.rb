@@ -1,14 +1,12 @@
 def fibonacci()
-  puts "Quantos elementos na sequência?"
+  puts "Quantos elementos na sequência? (De 3 em 3)" # Tenho que arrumar isso
   n = gets.to_i
   y = 1
   z = 1
   x = 0
-  i = 0
   puts y
 
-  while i<n do
-    i += 1
+  n.times do
     z = x+y
     puts z
     x = y+z
